@@ -506,4 +506,7 @@ section {
   .page_wrapper {
     overflow: hidden;
   }
+  .header_img {
+    width: 100%;
+  }
 }
