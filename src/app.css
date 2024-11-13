@@ -500,4 +500,10 @@ section {
   .widget_img {
     margin-top: -50px;
   }
+  .roadmap_card_sec img {
+    width: 100%;
+  }
+  .page_wrapper {
+    overflow: hidden;
+  }
 }
