@@ -4,6 +4,11 @@ nav {
   justify-content: space-between;
   padding: 15px 0;
 }
+.nav_logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 .nav_logo h1 {
   color: rgb(158, 255, 60);
   font-family: Tektur;
