@@ -291,6 +291,9 @@ section {
 .scanx_card img {
   width: 100%;
 }
+.inst_card_title .secondary_t {
+  max-width: 255px;
+}
 
 @media only screen and (max-width: 1150px) {
   .page_wrapper {
@@ -330,9 +333,6 @@ section {
   .roadmap_right {
     width: 100%;
   }
-  .inst_card_title h4 {
-    max-width: 90%;
-  }
 
   .widget_img {
     order: 3;
@@ -354,6 +354,9 @@ section {
 }
 
 @media only screen and (max-width: 700px) {
+  .inst_card_title .secondary_t {
+    max-width: 218px;
+  }
   .instr_cards,
   .scanx_cards {
     display: flex;
@@ -407,7 +410,7 @@ section {
     padding: 36px 24px 36px 24px;
   }
   .inst_card_title h4 {
-    max-width: 88%;
+    max-width: 218px;
     font-size: 18px;
     font-weight: 700;
     line-height: 23px;

@@ -93,7 +93,7 @@ function App() {
           <div className="inst_card">
             <div className="inst_card_title">
               <div>
-                <h4>Монеты увеличившиеся в объеме за 24 часа </h4>
+                <h4 className="secondary_t">Монеты увеличившиеся в объеме за 24 часа </h4>
                 <Arrow />
               </div>
               <p>
