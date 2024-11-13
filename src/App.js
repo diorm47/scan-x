@@ -19,11 +19,23 @@ import roadm from "./assets/roadmap-img.png";
 
 import { ReactComponent as WidgetImg } from "./assets/widget-img.svg";
 import qr from "./assets/qr.png";
+import { useRef } from "react";
 
 function App() {
+  const sectionRefs = {
+    section1: useRef(null),
+    section2: useRef(null),
+    section3: useRef(null),
+  };
+
+  const handleScroll = (section) => {
+    if (sectionRefs[section]?.current) {
+      sectionRefs[section].current.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <div className="page_wrapper">
-      <Navbar />
+      <Navbar handleScroll={handleScroll} />
 
       <section>
         <div className="main_header">
@@ -43,7 +55,7 @@ function App() {
         </div>
       </section>
 
-      <section>
+      <section ref={sectionRefs.section1}>
         <div className="section_title">
           <h2>Инструменты Scan -x</h2>
           <p>
@@ -133,7 +145,7 @@ function App() {
         </div>
       </section>
 
-      <section>
+      <section ref={sectionRefs.section2}>
         <div className="section_title">
           <h2>Сигналы от Scan-x</h2>
           <p>
@@ -172,7 +184,7 @@ function App() {
         </div>
       </section>
 
-      <section>
+      <section ref={sectionRefs.section3}>
         <div className="section_title">
           <h2>Дорожная карта</h2>
         </div>
@@ -232,10 +244,7 @@ function App() {
         <div className="widget">
           <div className="widget_text">
             <p>
-              Используйте <br /> Scan-x{" "}
-              <span>
-                чтобы быть  на шаг впереди.
-              </span>
+              Используйте <br /> Scan-x <span>чтобы быть на шаг впереди.</span>
             </p>
             <MainBtn text="Начать сейчас" />
           </div>
