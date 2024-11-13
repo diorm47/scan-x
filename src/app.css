@@ -270,7 +270,7 @@ section {
   overflow: hidden;
 }
 
-.widget_img svg {
+.widget_img img {
   width: 100%;
 }
 .qr p {
@@ -514,5 +514,8 @@ section {
   }
   .header_img {
     width: 100%;
+  }
+  .w26px {
+    max-width: 190px !important;
   }
 }

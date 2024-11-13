@@ -11,13 +11,13 @@ import ins_img_4 from "./assets/ins-imgs/img4.png";
 import ins_img_5 from "./assets/ins-imgs/img5.png";
 import ins_img_6 from "./assets/ins-imgs/img6.png";
 
-import scx_img_1 from "./assets/scan-x/img11.svg";
-import scx_img_2 from "./assets/scan-x/img22.svg";
-import scx_img_3 from "./assets/scan-x/img3.svg";
+import scx_img_1 from "./assets/scan-x/img1.png";
+import scx_img_2 from "./assets/scan-x/img2.png";
+import scx_img_3 from "./assets/scan-x/img3.png";
 
 import roadm from "./assets/roadmap-img1.png";
+import widgetImg from "./assets/widget-img.png";
 
-import { ReactComponent as WidgetImg } from "./assets/widget-img.svg";
 import qr from "./assets/qr.png";
 import { useRef } from "react";
 
@@ -67,7 +67,7 @@ function App() {
           <div className="inst_card">
             <div className="inst_card_title">
               <div>
-                <h4>Топ лидеров роста за 24 часа</h4>
+                <h4 className="w26px">Топ лидеров роста за 24 часа</h4>
                 <Arrow />
               </div>
               <p>
@@ -93,7 +93,9 @@ function App() {
           <div className="inst_card">
             <div className="inst_card_title">
               <div>
-                <h4 className="secondary_t">Монеты увеличившиеся в объеме за 24 часа </h4>
+                <h4 className="secondary_t">
+                  Монеты увеличившиеся в объеме за 24 часа{" "}
+                </h4>
                 <Arrow />
               </div>
               <p>
@@ -249,7 +251,7 @@ function App() {
             <MainBtn text="Начать сейчас" />
           </div>
           <div className="widget_img">
-            <WidgetImg />
+            <img src={widgetImg} />
           </div>
           <div className="qr">
             <img src={qr} alt="" />
