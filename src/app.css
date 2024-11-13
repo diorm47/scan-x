@@ -229,6 +229,9 @@ section {
   overflow: hidden;
   gap: 28px;
 }
+.roadmap_card_sec img {
+  width: 248px;
+}
 
 .widget {
   border-radius: 24px;

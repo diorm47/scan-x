@@ -15,7 +15,7 @@ import scx_img_1 from "./assets/scan-x/img11.svg";
 import scx_img_2 from "./assets/scan-x/img22.svg";
 import scx_img_3 from "./assets/scan-x/img3.svg";
 
-import roadm from "./assets/roadmap-img.png";
+import roadm from "./assets/roadmap-img1.png";
 
 import { ReactComponent as WidgetImg } from "./assets/widget-img.svg";
 import qr from "./assets/qr.png";
