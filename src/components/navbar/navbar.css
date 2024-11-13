@@ -1,0 +1,36 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+
+}
+.nav_logo h1 {
+  color: rgb(158, 255, 60);
+  font-family: Tektur;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: -2%;
+  text-align: left;
+}
+
+.nav_menu {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.nav_menu p {
+  color: rgb(242, 242, 242);
+  font-family: Tektur;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: -2%;
+}
+@media only screen and (max-width: 750px) {
+  .nav_menu {
+      display: none;
+  }
+} 

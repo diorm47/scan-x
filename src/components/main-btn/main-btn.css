@@ -1,0 +1,14 @@
+.main_btn {
+  border-radius: 49px;
+  padding: 10px 20px 10px 20px;
+  background: rgb(158, 255, 60);
+  color: rgb(30, 30, 30);
+  font-family: Tektur;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: -2%;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+}

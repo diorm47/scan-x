@@ -1,0 +1,503 @@
+@import url("https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Tektur", sans-serif;
+  background: #111111;
+}
+
+.page_wrapper {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1110px;
+  padding-top: 100px;
+}
+
+.main_header h1 {
+  font-family: Tektur;
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 117px;
+  letter-spacing: -2%;
+  text-align: center;
+  color: rgb(243, 243, 243);
+}
+
+.main_header h1 span {
+  color: rgb(158, 255, 60);
+}
+.main_header p {
+  color: rgb(117, 117, 117);
+  font-family: Tektur;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: -2%;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.dfaic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header_img {
+  margin-top: 30px;
+}
+
+section {
+  padding: 100px 0;
+}
+
+.section_title h2 {
+  color: rgb(255, 255, 255);
+  font-family: Tektur;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: -2%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.section_title p {
+  color: rgb(138, 138, 138);
+  font-family: Tektur;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: -2%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.instr_cards,
+.scanx_cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.inst_card {
+  width: 100%;
+  border-radius: 24px;
+  padding: 42px 28px 0 28px;
+  background: rgb(32, 32, 32);
+  max-height: 550px;
+  overflow: hidden;
+}
+
+.inst_card_title div {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.inst_card_title h4 {
+  color: rgb(243, 243, 243);
+  font-family: Tektur;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  max-width: 245px;
+}
+
+.inst_card_title p {
+  color: rgb(117, 117, 117);
+  font-family: Tektur;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 28px;
+}
+
+.inst_card_img {
+  width: 100%;
+}
+.inst_card_s {
+  background: rgb(158, 255, 60);
+}
+
+.inst_card_s h4,
+.inst_card_s p {
+  color: rgb(30, 30, 30);
+}
+.inst_card_title {
+  cursor: pointer;
+}
+
+.inst_card_s .inst_card_title svg * {
+  fill: rgb(30, 30, 30);
+}
+
+.scanx_card {
+  width: 100%;
+  border-radius: 24px;
+  padding: 42px 28px 42px 28px;
+  background: rgb(30, 30, 30);
+}
+
+.scanx_card h4 {
+  color: rgb(158, 255, 60);
+  font-family: Tektur;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.scanx_card p {
+  color: rgb(243, 243, 243);
+  font-family: Tektur;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 28px;
+}
+
+.roadmap_wrapper {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.roadmap_card {
+  width: 100%;
+  border-radius: 24px;
+  padding: 42px 28px 42px 28px;
+  background: rgb(30, 30, 30);
+  margin-bottom: 30px;
+}
+
+.roadmap_card h5 {
+  color: rgb(158, 255, 60);
+  font-family: Tektur;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.roadmap_card h3 {
+  color: rgb(255, 255, 255);
+  font-family: Tektur;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.roadmap_card p {
+  color: rgb(117, 117, 117);
+  font-family: Tektur;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.roadmap_left {
+  width: 58%;
+}
+.roadmap_right {
+  width: 42%;
+}
+
+.roadmap_card_sec {
+  display: flex;
+  align-items: start;
+  max-height: 354px;
+  overflow: hidden;
+  gap: 28px;
+}
+
+.widget {
+  border-radius: 24px;
+  padding: 68px 50px 0;
+  background: rgb(23, 23, 23);
+}
+
+.widget_text {
+  width: 100%;
+}
+
+.widget_text p {
+  font-family: Tektur;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: -2%;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  margin-bottom: 48px;
+}
+
+.widget_text p span {
+  color: rgb(117, 117, 117);
+}
+
+.widget {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.widget_img {
+  max-height: 317px;
+  overflow: hidden;
+}
+
+.widget_img svg {
+  width: 100%;
+}
+.qr p {
+  color: rgb(255, 255, 255);
+  font-family: Tektur;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: -2%;
+  text-align: center;
+  margin-top: 15px;
+}
+.widget_text {
+  max-width: 395px;
+}
+
+.mb0 {
+  margin-bottom: 0;
+}
+
+.scanx_card img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 1150px) {
+  .page_wrapper {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 50px;
+  }
+  section {
+    padding: 50px 0;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .instr_cards,
+  .scanx_cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .widget {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+  .widget_text p {
+    text-align: center;
+  }
+  .widget_text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .roadmap_wrapper {
+    flex-direction: column;
+  }
+  .roadmap_left,
+  .roadmap_right {
+    width: 100%;
+  }
+  .inst_card_title h4 {
+    max-width: 90%;
+  }
+
+  .widget_img {
+    order: 3;
+  }
+
+  .qr {
+    order: 1;
+  }
+
+  .widget_text {
+    order: 2;
+  }
+}
+
+.qr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media only screen and (max-width: 700px) {
+  .instr_cards,
+  .scanx_cards {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main_header h1 {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 46px;
+  }
+
+  .page_wrapper {
+    padding-top: 24px;
+  }
+  section {
+    padding: 24px 0;
+  }
+  .main_header p {
+    font-family: Tektur;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: -2%;
+    margin: 24px 0;
+  }
+  br {
+    display: none;
+  }
+  .header_img {
+    margin-top: 24px;
+  }
+
+  .section_title h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: -2%;
+    margin-bottom: 24px;
+  }
+
+  .section_title p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: -2%;
+    margin-bottom: 24px;
+  }
+
+  .inst_card {
+    padding: 36px 24px 36px 24px;
+  }
+  .inst_card_title h4 {
+    max-width: 88%;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0%;
+    margin-bottom: 10px;
+  }
+  .inst_card_title p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+    margin-bottom: 24px;
+  }
+  .inst_card {
+    max-height: 500px;
+  }
+
+  .scanx_card {
+    padding: 36px 24px 36px 24px;
+  }
+
+  .scanx_card h4 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0%;
+    margin-bottom: 24px;
+  }
+
+  .scanx_card p {
+    color: rgb(243, 243, 243);
+    font-family: Tektur;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+
+  .roadmap_card {
+    padding: 36px 24px 36px 24px;
+  }
+
+  .roadmap_card h5 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    margin-bottom: 24px;
+  }
+
+  .roadmap_card h3 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0%;
+    margin-bottom: 10px;
+  }
+
+  .roadmap_card p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+  }
+
+  .roadmap_card_sec {
+    flex-direction: column;
+    max-height: 500px;
+    gap: 24px;
+  }
+
+  .widget {
+    padding: 36px 24px 0 24px;
+  }
+  .widget_text p {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: -2%;
+    margin-bottom: 24px;
+  }
+
+  .qr p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -2%;
+    max-width: 200px;
+  }
+  .widget_img {
+    margin-top: -50px;
+  }
+}
