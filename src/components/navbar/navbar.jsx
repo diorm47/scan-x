@@ -8,7 +8,7 @@ import "aos/dist/aos.css";
 function Navbar({ handleScroll }) {
   useEffect(() => {
     AOS.init({
-      duration: 1200,
+      duration: 800,
     });
   }, []);
 
