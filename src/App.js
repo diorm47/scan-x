@@ -11,8 +11,8 @@ import ins_img_4 from "./assets/ins-imgs/img4.png";
 import ins_img_5 from "./assets/ins-imgs/img5.png";
 import ins_img_6 from "./assets/ins-imgs/img6.png";
 
-import scx_img_1 from "./assets/scan-x/img1.svg";
-import scx_img_2 from "./assets/scan-x/img2.svg";
+import scx_img_1 from "./assets/scan-x/img11.svg";
+import scx_img_2 from "./assets/scan-x/img22.svg";
 import scx_img_3 from "./assets/scan-x/img3.svg";
 
 import roadm from "./assets/roadmap-img.png";
